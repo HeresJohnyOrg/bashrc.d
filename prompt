@@ -1,9 +1,0 @@
-set -o vi
-export EDITOR=nvim
-#[user@fedora .config]$ 
-# Requires git-prompt script
-# https://github.com/HeresJohnyOrg/git/blob/master/contrib/completion/git-prompt.sh
-source ~/.config/bashrc.d/git-prompt.sh
-GIT_PS1_SHOWDIRTYSTATE=true
-GIT_PS1_SHOWUNTRACKEDFILES=true
-PS1='\[\e[0;32m\](\!)[\w]\[\e[0;34m\]$(__git_ps1 " %s")\[\e[0;32m\]\n$\[\e[0m\] '
